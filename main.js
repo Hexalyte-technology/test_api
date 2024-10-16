@@ -25,6 +25,6 @@ mysqlPool.getConnection((err, connection) => {
   connection.release();
 });
 
-app.listen(3000, () => {
-  console.log("Server started on port 3000");
+app.listen(22, () => {
+  console.log("Server started on port 22");
 });
